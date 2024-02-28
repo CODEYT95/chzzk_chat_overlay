@@ -282,10 +282,10 @@ span.message>img.emote {
 
 /* 스트리머 채팅창 포인트 */
 .stramer::before{
-    background-image: url(https://github.com/CODEYT95/chzzk_chat_overlay/blob/main/chzzk_duck/img/11-removebg-preview.png?raw=true);
-    /* width: 44px; */
-    /* height: 29px; */
-    background-size: 43px;
-    width: 40px;
-    height: 39px;
+    background-image: url(https://github.com/CODEYT95/chzzk_chat_overlay/blob/main/chzzk_duck/img/11-removebg-preview.png?raw=true) !important;
+    width: 44px !important;
+    height: 29px !important;
+    background-size: 43px !important;
+    width: 40px !important;
+    height: 39px !important;
 }
