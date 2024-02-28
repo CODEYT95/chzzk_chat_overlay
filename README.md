@@ -1,2 +1,2 @@
-# chzzk_chat_overlay
-chzzk_chat_overlay
+# 네이버 치지직 채팅창 오버레이 테스트
+
