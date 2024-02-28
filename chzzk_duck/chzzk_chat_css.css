@@ -279,3 +279,8 @@ span.message>img.emote {
     color: #00ffaf!important;
     font-weight: 700!important;
 }
+
+/* 스트리머 채팅창 포인트 */
+.stramer::before{
+
+}
