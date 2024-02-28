@@ -1,0 +1,281 @@
+#log {
+    word-break: break-word;
+}
+
+#log>div.deleted {
+    visibility: hidden;
+}
+
+#log .emote_wrap {
+    position: relative;
+}
+
+.emoticon {
+    height: 40px;
+    vertical-align: middle;
+    margin: -5px 0;
+}
+
+.badge,
+.colon,
+.message,
+.name {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+#log .meta {
+    padding-right: 4px;
+    position: relative;
+}
+
+.badge {
+    margin-right: 4px;
+    height: 1em;
+}
+
+.name {
+    font-weight: 600;
+    margin-left: .1em;
+}
+
+.colon,
+.name {
+    height: 24px;
+}
+
+body,
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+#log {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 10px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 600;
+    text-shadow: #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px;
+    font: 0.8em 'Binggrae', serif;
+    word-break: break-word;
+}
+
+body {
+    --webkit-mask-image: -webkit-gradient(linear, left 10%, left top, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
+    --webkit-mask-image: -webkit-gradient(linear, left 20%, left top, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
+}
+
+#log>div:not(.donation) {
+    padding-bottom: .25em;
+}
+
+#log>div {
+    word-wrap: break-word;
+    animation: fadeInUp .15s ease forwards !important;
+    -webkit-animation: fadeInUp .15s ease forwards !important;
+}
+
+body {
+    background: transparent;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+span.message>img {
+    height: 1em;
+}
+
+span.message>img.emote {
+    height: auto;
+    vertical-align: text-top;
+}
+
+.admin-icon,
+.global_mod-icon,
+.staff-icon {
+    display: none !important;
+}
+
+.bits-icon {
+    display: none !important;
+}
+
+.broadcaster-icon {
+    display: none !important;
+}
+
+.moderator-icon {
+    display: none !important;
+}
+
+.premium-icon {
+    display: none !important;
+}
+
+.turbo-icon {
+    display: none !important;
+}
+
+.subscriber-icon {
+    display: none !important;
+}
+
+span.message>img.emote {
+    height: auto !important;
+    vertical-align: text-top;
+}
+
+.cheese-amount {
+    align-items: center;
+    display: inline-block;
+    font-weight: 800;
+    gap: 0 5px;
+    letter-spacing: -.3px;
+    margin: 0 10px;
+}
+
+.cheese-img {
+    display: inline-block;
+    background-image: url(/static/cheese.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.donation {
+    background: linear-gradient(270deg, rgba(0, 0, 0, .2), transparent), linear-gradient(180deg, hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, 0)), #412776;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .5), inset 1px 1px 1px 0 hsla(0, 0%, 100%, .1);
+    margin-bottom: 15px;
+    padding: 15px 10px;
+}
+
+.donation-name {
+    margin-right: 5px;
+}
+
+.donation-message {
+    font-weight: 700;
+    letter-spacing: -.3px;
+    margin-top: 6px;
+}
+
+.donation-meta {
+    word-wrap: break-word;
+    word-break: break-word
+}
+
+:root {
+    /* 설정 */
+    ;--폰트_사이즈: 28px
+    ;--텍스트_정렬: left
+
+    ;--chzzk-color: #00FFAF
+    ;--twitch-color: #A970FF
+    ;--youtube-color: #FF0000
+    ;--afreeca-color: #0545B1
+}
+
+/* 폰트 추가 */
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.ttf') format("truetype");
+    font-display: swap;
+}
+
+/* 채팅 메세지에 스타일 적용 */
+#log > div[data-from] {
+    font-family: 'GmarketSans'!important;
+    background: #fff;
+    margin: 0.4em;
+    padding: 0.6em 0.8em 0.4em 0.8em!important;
+    text-shadow: none!important;
+    color: #333!important;
+    font-size: var(--폰트_사이즈)!important;
+    text-align: var(--텍스트_정렬)!important;
+    border-radius: 0.9em;
+    width: fit-content!important;
+    box-shadow: 0px 0.4em 20px 0px rgba(0, 0, 0, 0.05);
+    animation: open .5s cubic-bezier(0, 0.62, 0, 0.98) forwards!important;
+}
+@keyframes open {
+	0% {
+        margin: 0.4em 0.4em -1em 0.4em;
+        transform: translateY(2em);
+        opacity: 0;
+    }
+	100% {
+        margin: 0.4em 0.4em 0.4em 0.4em;
+        transform: translateY(0em);
+        opacity: 1;
+    }
+}
+
+/* 닉네임 제거 */
+#log > div > .meta {
+    display: none
+}
+
+/* 플랫폼 색상 아이콘 */
+#log > div::before {
+    content: '';
+    width: 0.5em;
+    height: 0.5em;
+    background: #f6f4ff;
+    position: absolute;
+    border-radius: 100%;
+    left: 0px;
+    top: 0px;
+}
+#log > div.chzzk::before {
+    background: var(--chzzk-color);
+}
+#log > div.twitch::before {
+    background: var(--twitch-color);
+}
+#log > div.youtube::before {
+    background: var(--youtube-color);
+}
+#log > div.afreeca::before {
+    background: var(--afreeca-color);
+}
+
+/* 스트리머 채팅 강조 */
+#log > div.streamer {
+    background: #363444;
+    color: #00ffaf!important;
+    font-weight: 700!important;
+}
