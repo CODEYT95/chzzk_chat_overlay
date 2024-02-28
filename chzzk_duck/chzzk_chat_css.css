@@ -302,3 +302,13 @@ span.message>img.emote {
     left: -11px !important;
     top: -17px !important;
 }
+
+/*매니저 채팅 배경*/
+.manager{
+    background: #cee8ff !important;
+}
+
+.manager .name{
+    color: color: rgb(0 79 255);
+}
+
