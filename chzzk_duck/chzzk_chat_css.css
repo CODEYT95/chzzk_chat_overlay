@@ -312,3 +312,14 @@ span.message>img.emote {
     color: color: rgb(0 79 255);
 }
 
+/*일반 유저 채팅*/
+.chzzk::before{
+    background-image:url(https://github.com/CODEYT95/chzzk_chat_overlay/blob/main/chzzk_duck/img/3.png?raw=true);
+    width: 44px !important;
+    height: 29px !important;
+    background-size: 43px !important;
+    width: 40px !important;
+    height: 39px !important;
+    left: -11px !important;
+    top: -17px !important;
+}
