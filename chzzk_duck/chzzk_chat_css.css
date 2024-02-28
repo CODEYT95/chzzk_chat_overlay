@@ -246,7 +246,7 @@ span.message>img.emote {
 
 /* 닉네임 제거 */
 #log > div > .meta {
-    display: none
+    display: inline-block !important;
 }
 
 /* 플랫폼 색상 아이콘 */
@@ -254,14 +254,14 @@ span.message>img.emote {
     content: '';
     width: 0.5em;
     height: 0.5em;
-    background: #f6f4ff;
+    /*background: #f6f4ff;*/
     position: absolute;
     border-radius: 100%;
     left: 0px;
     top: 0px;
 }
 #log > div.chzzk::before {
-    background: var(--chzzk-color);
+    /*background: var(--chzzk-color);*/
 }
 #log > div.twitch::before {
     background: var(--twitch-color);
@@ -281,11 +281,13 @@ span.message>img.emote {
 }
 
 /* 스트리머 채팅창 포인트 */
-.stramer::before{
+.streamer::before{
     background-image: url(https://github.com/CODEYT95/chzzk_chat_overlay/blob/main/chzzk_duck/img/11-removebg-preview.png?raw=true) !important;
     width: 44px !important;
     height: 29px !important;
     background-size: 43px !important;
     width: 40px !important;
     height: 39px !important;
+    left: -11px !important;
+    top: -17px !important;
 }
